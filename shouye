@@ -1,0 +1,101 @@
+<?php
+	$viewInfo = $_GET['viewInfo'];
+	if ($viewInfo == '1') {
+		phpinfo();
+	} else {
+		?>
+		<html>
+			<head>
+            <link rel='icon' href='TYZY/DH.png' type=‘image/x-ico’ />
+				<title>Welcome to Mysite!</title>
+					<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8">
+	        <style type="text/css">
+body{
+	font-family:'Microsoft Yahei';
+	font-size:20px;
+	overflow:hidden;
+	
+	}
+	h2{
+		font-size:36px;
+		}
+	.main{
+		width:auto;
+		height:600px;
+		margin:auto;
+		}
+	.header{
+		width:auto;
+		height:100px;
+		margin:auto;
+		padding-top:50px;
+		padding-bottom:50px;
+		
+		color:#000;
+		
+	
+	}
+	.content{
+		width:800px;
+		text-align:center;
+		vertical-align:middle;
+		margin-left:32%;
+		margin-right:32%;
+		}
+	ul{
+		list-style:none;
+		text-align:left;
+		line-height:35px;
+	}
+
+	ul li a{
+		text-decoration:none;
+		font-family:'Microsoft Yahei';
+		color:#000;
+		
+	}
+	ul li a:hover,a:active{
+		color:#29badb;
+		}
+		.headline-bg.index-headline-bg {
+	height: 680px;
+	overflow: hidden;
+	background: transparent 
+	-moz-linear-gradient(center top , #0076D1, #5DB8FF) repeat scroll 0% 0%;
+}
+            </style>
+			</head>
+			<body> 
+             <div id="main" class="main">
+             
+            <div id="header" class="header">
+				<h2 style="text-align:center;">Welcome to Mysite!</h2>
+                </div>
+      
+                <div id="content" class="content">
+                         <div style="float:left;">
+                
+                </div>
+                <div style="width:600px;">
+						<ul>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8282/blog/" target="_blank">Langz – 阳光下的格桑花，永远是最美丽的！</a></li><br>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8282/zblog/" target="_blank">Zblog 我的博客！</a></li><br>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8282/jl/index.html" target="_blank"> Preview 我的简历</a></li><br>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8282/blog/wp-login.php" target="_blank">WEB 后台登陆管理</a></li><br>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8004/" target="_blank">KSWEB 服务器监控</a></li><br>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8001/" target="_blank">phpMyAdmin 数据库管理</a></li><br>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8002/?username=root" target="_blank"> Adminer-数据库管理</a></li><br>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8003/index.php" target="_blank">PHP File Manager</a></li><br>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8282/blog/tz.php" target="_blank">PHP 服务器探针</a></li><br>
+						 <img src="tyzy/LOGO.png"<li><a href="http://liliangjun.jios.org:8282/discuz/upload/forum.php" target="_blank">小苹果文学论坛！</a></li><br>
+						  
+		    </ul>
+            </div>
+            </div>
+            </div>
+</div>
+			</body>
+		</html>
+		<?php
+	}
+?>
